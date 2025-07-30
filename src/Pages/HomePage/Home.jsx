@@ -79,14 +79,14 @@ function Home() {
           })}
 
           <div data-aos="fade-up">
-            <Link
+            <p
               to="/projects"
               className="viewmore-link text-center"
-              style={{ marginTop: "10px" }}
+              style={{ marginTop: "10px",visibility:'hidden' }}
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
-              View all projects
-            </Link>
+              
+            </p>
           </div>
         </div>
       </div>

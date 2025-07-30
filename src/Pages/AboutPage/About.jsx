@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 
 import portfolioData from '../../data/portfolioData.json'
+import { Link } from "react-router-dom";
 
 function About() {
   return (

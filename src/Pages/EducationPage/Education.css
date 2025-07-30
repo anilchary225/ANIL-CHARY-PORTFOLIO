@@ -223,9 +223,9 @@
     }
     
     .education-image {
-        width: 220px;
-        height: 300px;
-        border-radius: 15px;
+        width: 580px;
+        height: 380px;
+        border-radius: 25px;
     }
     
     .education-image:hover {
@@ -247,6 +247,9 @@
         padding: 10px;
         font-size: 0.95rem;
     }
+    .education-image-container {
+        padding: 10px;
+    }
 }
 
 /* Large Mobile Screens (480px - 639px) */
@@ -267,9 +270,9 @@
     }
     
     .education-image {
-        width: 180px;
-        height: 250px;
-        border-radius: 15px;
+        width: 480px;
+        height: 380px;
+        border-radius: 25px;
     }
     
     .education-content {
@@ -284,6 +287,9 @@
     .education-para {
         padding: 8px;
         font-size: 0.9rem;
+    }
+    .education-image-container {
+        padding: 20px;
     }
 }
 
@@ -305,9 +311,9 @@
     }
     
     .education-image {
-        width: 150px;
-        height: 200px;
-        border-radius: 12px;
+        width: 330px;
+        height: 380px;
+        border-radius: 25px;
     }
     
     .education-image:hover {
@@ -322,6 +328,9 @@
     .education-para {
         padding: 5px;
         font-size: 0.85rem;
+    }
+    .education-image-container {
+        padding: 30px;
     }
 }
 
@@ -343,9 +352,9 @@
     }
     
     .education-image {
-        width: 120px;
-        height: 160px;
-        border-radius: 10px;
+        width: 380px;
+        height: 480px;
+        border-radius: 25px;
     }
     
     .education-title {
@@ -356,6 +365,9 @@
     .education-para {
         padding: 3px;
         font-size: 0.8rem;
+    }
+    .education-image-container {
+        padding: 20px;
     }
 }
 
@@ -379,8 +391,8 @@
     }
     
     .education-image {
-        width: 180px;
-        height: 200px;
+        width: 280px;
+        height: 300px;
     }
     
     .education-content {

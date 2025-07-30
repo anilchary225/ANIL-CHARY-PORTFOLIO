@@ -44,12 +44,14 @@ body.dark {
     flex: 1;
     max-width: 50%;
     padding: 20px;
+    
 }
 
 .about-title {
     color: var(--about-text);
     margin-bottom: 20px;
     font-size: 2.5rem;
+    
 }
 
 .about-para {
@@ -57,6 +59,7 @@ body.dark {
     color: var(--about-text);
     font-size: 1.1rem;
     line-height: 1.6;
+    
 }
 
 .about-image-container {

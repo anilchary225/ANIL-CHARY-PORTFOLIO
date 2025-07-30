@@ -1,6 +1,7 @@
 import React from 'react'
 import './Education.css'
 import portfolioData from '../../data/portfolioData.json'
+import { Link } from 'react-router-dom'
 
 function Education() {
   return (
@@ -14,6 +15,7 @@ function Education() {
         
         <div className="education-content" data-aos="fade-right" >
         
+       
         <div className="education-para" style={{ color:'white'}}>
             <h2 className="education-title text-white">Education</h2>
             <h4>{portfolioData.education.graduation.degree}</h4>
