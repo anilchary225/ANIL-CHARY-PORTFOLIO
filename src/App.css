@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+}
+:root {
+  --form-color: #451572; /* Light mode default */
+}
+
+body.dark {
+  --form-color: #bb86fc; /* Dark mode override */
+}
+:root {
+  --section-heading: #451572;
+}
+
+body.dark {
+  --section-heading: white;
+}

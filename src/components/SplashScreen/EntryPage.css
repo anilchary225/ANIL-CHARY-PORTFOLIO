@@ -1,0 +1,108 @@
+:root {
+  --entrypage-bg: white;
+  --entrypage-border: gray;
+  --entrypage-hover-border: #7f49b2;
+  --entrypage-text: #7f49b2;
+  --entrypage-link-hover-bg: #622bc1;
+  --entrypage-link-hover-text: white;
+}
+
+body.dark {
+  --entrypage-bg: #1a1a1a;
+  --entrypage-border: #444;
+  --entrypage-hover-border: #9d6bc7;
+  --entrypage-text: #bb86fc;
+  --entrypage-link-hover-bg: #bb86fc;
+  --entrypage-link-hover-text: #121212;
+}
+
+
+.entry-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--entrypage-bg);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+  }
+  
+  .lottie-background canvas {
+    width: 50vw !important;
+    height: 50vh !important;
+    object-fit: cover;
+    z-index: 0;
+  }
+  
+  .content-overlay {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+   
+    top: 80%;
+    transform: translateY(-50%);
+    padding: 1rem;
+    width: 100%;
+    
+  }
+  .entrypage-link {
+    text-decoration: none;
+    background-color: var(--entrypage-bg);
+    border: var(--entrypage-border)!important;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: var(--entrypage-text);
+
+  }
+  
+  .entry-head {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: copperplate;
+    color: var(--entrypage-text);
+  }
+  
+  
+  
+  .enter-button:hover, .skip-button:hover, .sound-button:hover {
+    background-color: var(--entrypage-link-hover-bg);
+    color: var(--entrypage-link-hover-text);
+  }
+  
+  .loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #451572;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    z-index: 10;
+  }
+  .logo-animate {
+    transition: transform 0.3s ease;
+  }
+  .logo-animate:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Responsive text sizes */
+  @media (max-width: 600px) {
+    .entry-head {
+      font-size: 1rem;
+    }
+    .entry-page {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+  }

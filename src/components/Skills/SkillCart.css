@@ -1,0 +1,134 @@
+:root {
+  --skill-border: #451572;
+  --skill-shadow: rgba(69, 21, 114, 0.3);
+  --skill-text: #451572;
+  --skill-bg: #ffffff;
+}
+
+body.dark {
+  --skill-border: #bb86fc;
+  --skill-shadow: rgba(187, 134, 252, 0.3);
+  --skill-text: #bb86fc;
+  --skill-bg: #1e1e1e;
+}
+
+.skill-cart {
+  width: fit-content;
+  border-radius: 50px;
+  border: var(--skill-border) 1px solid;
+  background-color: var(--skill-bg);
+  transform-origin: center;
+  transition: transform 0.1s ease-in-out, box-shadow 0.3s ease-in-out;
+  min-width: fit-content;
+  flex-shrink: 0;
+}
+
+.skillname {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--skill-text);
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.skill-cart:hover {
+  transform: scale(1.03)!important;
+  box-shadow: 0 4px 20px var(--skill-shadow);
+  cursor: pointer;
+}
+
+.skill-image {
+  width: 25px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .skill-cart {
+    padding: 0.6rem 1rem !important;
+  }
+  
+  .skillname {
+    font-size: 0.95rem;
+  }
+  
+  .skill-image {
+    width: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .skill-cart {
+    padding: 0.5rem 0.9rem !important;
+    gap: 0.6rem !important;
+  }
+  
+  .skillname {
+    font-size: 0.9rem;
+  }
+  
+  .skill-image {
+    width: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-cart {
+    padding: 0.4rem 0.8rem !important;
+    gap: 0.5rem !important;
+  }
+  
+  .skillname {
+    font-size: 0.85rem;
+  }
+  
+  .skill-image {
+    width: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .skill-cart {
+    padding: 0.35rem 0.7rem !important;
+    gap: 0.4rem !important;
+  }
+  
+  .skillname {
+    font-size: 0.8rem;
+  }
+  
+  .skill-image {
+    width: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-cart {
+    padding: 0.3rem 0.6rem !important;
+    gap: 0.35rem !important;
+  }
+  
+  .skillname {
+    font-size: 0.75rem;
+  }
+  
+  .skill-image {
+    width: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .skill-cart {
+    padding: 0.25rem 0.5rem !important;
+    gap: 0.3rem !important;
+  }
+  
+  .skillname {
+    font-size: 0.7rem;
+  }
+  
+  .skill-image {
+    width: 14px;
+  }
+}

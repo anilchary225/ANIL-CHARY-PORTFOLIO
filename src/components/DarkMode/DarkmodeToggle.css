@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .darkmode-button {
+        
+    height: auto;
+    padding: 10px 0;
+    line-height: normal;
+    font-size: 10px;
+    }
+}

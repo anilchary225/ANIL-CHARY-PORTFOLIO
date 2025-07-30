@@ -1,0 +1,67 @@
+/* Base styles remain the same, adding responsive breakpoints */
+.project-page {
+    padding: 0 50px;
+  }
+  
+  .project-carts {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Mobile First - Extra Small devices (phones, 576px and down) */
+  @media (max-width: 575.98px) {
+    .project-head {
+      margin-top: 100px !important;
+      margin-bottom: 50px !important;
+      font-size: 2rem;
+    }
+    
+    .project-carts {
+      margin: 20px 0 !important;
+      padding: 0 10px;
+    }
+    
+    
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .project-head {
+      margin-top: 80px !important;
+      margin-bottom: 60px !important;
+      font-size: 2.5rem;
+    }
+    
+    .project-carts {
+      margin: 30px 0 !important;
+      padding: 0 15px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .project-head {
+      margin-top: 120px !important;
+      margin-bottom: 80px !important;
+    }
+    
+    .project-carts {
+      margin: 50px 0 !important;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .project-head {
+      margin-top: 150px !important;
+      margin-bottom: 90px !important;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .project-head {
+      margin-top: 200px !important;
+      margin-bottom: 100px !important;
+    }
+  }

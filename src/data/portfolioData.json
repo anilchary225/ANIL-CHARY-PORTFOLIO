@@ -1,0 +1,329 @@
+{
+  "name": "Vadla Anil Chary",
+  "title": "MERN STACK DEVELOPER | JAVA FULL STACK DEVELOPER | AI ENTHUSIAST",
+  "profile": "/profiles/user.jpg",
+  "graduateProfile": "/profiles/graduate-profile.jpeg",
+  "graduatedGroup": "/profiles/graduated.jpeg",
+  "graduatedGroupPic": "/profiles/grouppic.jpeg",
+  "email": "vadlaanilchary225@gmail.com",
+  "phone": "+91-6303271857",
+  "address": "Akanpally, Maheshwaram Mandal, Ranga Reddy, Telangana - 509325",
+  "summary": "Recent B.Tech graduate in Artificial Intelligence with hands-on experience in software development, AI/ML, and full-stack web development. Passionate about building scalable tech solutions and solving real-world problems.",
+
+  "contact": {
+    "email": "vadlaanilchary225@gmail.com",
+    "phone": "+91-6303271857",
+    "linkedin": "https://www.linkedin.com/in/anilchary225",
+    "address": "Akanpally, Maheshwaram Mandal, Ranga Reddy District, Telangana, India - 509325"
+  },
+
+  "education": {
+    "graduation": {
+      "degree": "B.Tech in Artificial Intelligence",
+      "institute": "Vidya Jyothi Institute of Technology (VJIT)",
+      "location": "Hyderabad, Telangana",
+      "duration": "2021 - 2025",
+      "cgpa": "7.4"
+    },
+    "intermediate": {
+      "degree": "Intermediate - MPC",
+      "institute": "Narayana Junior College",
+      "location": "Hyderabad",
+      "duration": "2019 - 2021",
+      "cgpa": "9.7"
+    },
+    "ssc": {
+      "degree": "SSC",
+      "institute": "Sri Chaitanya School",
+      "location": "Hyderabad",
+      "duration": "2019",
+      "cgpa": "9.5"
+    }
+  },
+
+  "projects": [
+    {
+      "id": "1",
+      "img": "/project-images/hexapod robot.png",
+      "title": "HEXA TALK - Speech Recognition using ASR and DNN",
+      "description": "Developed a speech recognition system for a Hexapod robot using ASR and DNN. Enabled real-time voice command processing and individual voice recognition.",
+      "technologies": ["ASR", "DNN", "Audio Processing"],
+      "link":"",
+      "GitHub":""
+    },
+    {
+      "id": "2",
+      "img": "/project-images/VAC_STORE.png",
+      "title": "VAC FASHION STORE",
+      "description": "A stylish e-commerce website for fashion products with dynamic cart, filtering, and responsive UI using full-stack technologies.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MySQL"],
+      "link":"https://vac-fashion-store-bjec.vercel.app",
+      "GitHub":"https://github.com/anilchary225/VAC-FASHION-STORE"
+    },
+    {
+      "id": "3",
+      "img": "/project-images/imdb2.jpg",
+      "title": "Movie Watchlist App",
+      "description": "React-based movie app with IMDb API integration. Included search, genre filters, and responsive UI.",
+      "technologies": ["React", "Tailwind CSS", "IMDb API"],
+      "link":"https://movieswatch-lists.netlify.app",
+      "GitHub":"https://github.com/anilchary225/Imdb-clone-app"
+    },
+    {
+      "id": "4",
+      "img": "/project-images/diary.png",
+      "title": "Dairy Management System",
+      "description": "Full-stack app to manage dairy operations using Node.js, Express, and MySQL.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MySQL"],
+      "link":" ",
+      "GitHub":"https://github.com/anilchary225/Diary-FrontEnd"
+    },
+    {
+      "id": "5",
+      "img": "/project-images/blog.png",
+      "title": "Blogging Website",
+      "description": "A blogging platform using React and Node.js where users can browse and upload blogs. Backend with MySQL.",
+      "technologies": ["React", "Node.js", "Express.js", "MySQL"],
+      "link":"",
+      "GitHub":""
+    },
+    {
+      "id": "6",
+      "img": "/project-images/ToDo List.png",
+      "title": "ToDo App",
+      "description": "A React-based task manager allowing add, edit, delete, and mark tasks as completed.",
+      "technologies": ["React"],
+      "link":"https://todotaskappmanager.netlify.app",
+      "GitHub":"https://github.com/anilchary225/TodoApp"
+    },
+    {
+      "id": "7",
+      "img": "/project-images/Calculater.png",
+      "title": "Calculator",
+      "description": "Simple calculator with basic arithmetic using HTML, CSS, and JavaScript.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link":"https://cal-testing.netlify.app",
+      "GitHub":"https://github.com/anilchary225/calculator"
+    },
+    {
+      "id": "8",
+      "img": "/project-images/Tic Tac Toe.png",
+      "title": "Tic Tac Toe Game",
+      "description": "A classic Tic Tac Toe game using HTML, CSS, and JavaScript.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link":"https://tic-tac-toe-teal-phi.vercel.app",
+      "GitHub":"https://github.com/anilchary225/Tic-Tac-Toe"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Data Engineering Virtual Internship",
+      "img": "/experience-images/dataanalyst.jpg",
+      "company": "EduSkills",
+      "duration": "Oct - Dec 2024",
+      "GitHub":"https://github.com/anilchary225?tab=repositories",
+      "link":"https://drive.google.com/file/d/1Uv0bxVSzDj7OQ9LkLm5oEsXeQnK2WAAI/view?usp=drive_link",
+      "details": [
+        "Worked with data transformation using SQL",
+        "Explored ETL pipelines and large dataset handling"
+      ]
+    },
+    {
+      "title": "Machine Learning Intern",
+      "img": "/experience-images/machinelearning.jpg",
+      "company": "CodSoft",
+      "GitHub":"https://github.com/anilchary225?tab=repositories",
+      "link":"https://drive.google.com/file/d/14MsiN_WCxQHtjy55WNccVcY3DHLXLd3B/view?usp=drive_link",
+      "duration": "Oct - Nov 2024",
+      "details": [
+        "Built ML models for churn prediction, spam detection, and genre classification",
+        "Implemented logistic regression, SVM, and decision trees"
+      ]
+    },
+    {
+      "title": "Web Development Intern",
+      "img": "/experience-images/webdevelopment.jpg",
+      "company": "SkillCraft, Prodigy InfoTech, CodTech IT Solutions",
+      "GitHub":"https://github.com/anilchary225?tab=repositories",
+      "link":"https://drive.google.com/file/d/1xYPrqflxO_fYh-blxUHYpCSkT4LKgz-b/view?usp=drive_link",
+      "duration": "Oct - Nov 2024",
+      "details": [
+        "Developed responsive and dynamic websites",
+        "Used HTML, CSS, JavaScript, React, and Bootstrap"
+      ]
+    }
+  ],
+
+  "services": [
+    {
+      "category": "Frontend Development",
+      "img": "/service-images/frontend.jpg",
+      "items": [
+        "Responsive Design with HTML, CSS, JavaScript",
+        "Modern UI using React.js",
+        "Cross-browser Compatibility",
+        "Mobile-first Design",
+        "SPA Development",
+        "CSS Frameworks: Bootstrap, Tailwind, Material UI",
+        "Client-side validation and interactivity"
+      ]
+    },
+    {
+      "category": "Backend Development",
+      "img": "/service-images/backend.jpg",
+      "items": [
+        "RESTful API creation",
+        "Authentication (JWT, OAuth)",
+        "CRUD Operations",
+        "Node.js, Django, Flask, Laravel, Spring Boot",
+        "Middleware Integration",
+        "Payment Gateways",
+        "Email & SMS Services"
+      ]
+    },
+    {
+      "category": "Database Services",
+      "img": "/service-images/database1.jpg",
+      "items": [
+        "Database Design & Modeling",
+        "MySQL, PostgreSQL, MongoDB, Firebase",
+        "Optimization, Backup & Migration"
+      ]
+    },
+    {
+      "category": "DevOps & Deployment",
+      "img": "/service-images/devops.jpg",
+      "items": [
+        "Git/GitHub Version Control",
+        "CI/CD with GitHub Actions, Jenkins",
+        "Deployment: Vercel, Netlify, Heroku, Railway, AWS, GCP",
+        "Dockerization",
+        "NGINX Setup / Load balancing"
+      ]
+    },
+    {
+      "category": "Security Implementation",
+      "img": "/service-images/security.jpg",
+      "items": [
+        "Input validation & sanitization",
+        "Secure password hashing",
+        "HTTPS, SSL, CORS settings",
+        "Rate limiting, CSRF, XSS protection"
+      ]
+    },
+    {
+      "category": "Additional Services",
+      "img": "/service-images/additional.jpg",
+      "items": [
+        "API Integrations: Maps, Weather, Analytics",
+        "CMS Integration: WordPress, Strapi",
+        "Admin Dashboards, Blogs, Portfolios",
+        "Progressive Web Apps",
+        "Chat/Real-time Apps using Socket.io"
+      ]
+    },
+    {
+      "category": "Optional Add-ons",
+      "img": "/service-images/addins.jpg",
+      "items": [
+        "UI/UX Design (Figma/Adobe XD)",
+        "SEO Optimization",
+        "Basic Graphic Design",
+        "Technical Documentation"
+      ]
+    }
+  ],
+
+  "skills": {
+    "languages": ["Python", "Java", "HTML", "CSS", "JavaScript"],
+    "langimg": [
+      "/skill-images/python.png",
+      "/skill-images/java.png",
+      "/skill-images/html-5.png",
+      "/skill-images/css.png",
+      "/skill-images/javascript.png"
+    ],
+    "frameworks": ["React JS", "Node JS", "Express", "Spring Boot"],
+    "frameimg": [
+      "/skill-images/react.png",
+      "/skill-images/nodejs1.png",
+      "/skill-images/express1.png",
+      "/skill-images/spring-boot.png"
+    ],
+    "databases": ["MongoDB", "MySQL"],
+    "dataimg": [
+      "/skill-images/mongoDB.png",
+      "/skill-images/mysql.png"
+    ],
+    "tools": ["Git", "GitHub", "VS Code", "Jupyter", "Excel", "Tableau"],
+    "toolsimg": [
+      "/skill-images/git.png",
+      "/skill-images/github.png",
+      "/skill-images/vscode.png",
+      "/skill-images/jupyter.png",
+      "/skill-images/excel.png",
+      "/skill-images/tableau.png"
+    ],
+    "concepts": [
+      "Machine Learning",
+      "Deep Learning",
+      "Artificial Neural Networks",
+      "Artificial Intelligence",
+      "Java Full Stack",
+      "MERN Stack"
+    ]
+  },
+
+  "certifications": {
+    "titles": [
+      "Deloitte Australia Data Analytics Job Simulation - Forage",
+      "AWS Academy Graduate – Data Engineering, Cloud Foundations, Cloud Architecting",
+      "TCS iON Career Edge - Young Professional",
+      "Programming Basics - IITBombayX",
+      "Career Essentials in Generative AI - Microsoft & LinkedIn",
+      "DIGITAL SKILLS: USER EXPERIENCE - ACCENTURE",
+      "Python 101 for Data Science - IBM",
+      "Project Management Tracker using Microsoft excel - coursera",
+      "MERN Stack, Python OpenCV, ReactJS - Simplilearn",
+      "AI and Neural Networks - Great Learning",
+      "R-Programming and ML with OpenCV - Infosys Springboard",
+      "Basics of Data Science, Python, ML - Uni Athena",
+      "Certified in Java & Python - HackerRank",
+      "3-Day AWS & ML Hackathon Participation - VJIT"
+    ],
+    "images": [
+      
+      "certificates/dataanalytics.jpg",
+      "certificates/aws.jpg",
+      "certificates/tcs.jpg",
+      "certificates/IIT.jpg",
+      "certificates/carrear.jpg",
+      "certificates/accenture.jpg",
+      "certificates/ibm.jpg",
+      "certificates/coursera.jpg",
+      "certificates/simplilearn.jpg",
+      "certificates/greatlearning.jpg",
+      "certificates/springboard.jpg",
+      "certificates/uniathena.jpg",
+      "certificates/hakarank.png",
+      "certificates/aws workshop.jpeg"
+    ],
+    "links": [
+      "https://drive.google.com/drive/folders/1glNh2dsmj-M-E_LgoqLNhZuLWbJ9Flki?usp=drive_link",
+      "https://drive.google.com/drive/folders/1KDj0-IsoTShBSIlYh4Hv4e2LIpsIbo4t?usp=drive_link",
+      "https://drive.google.com/file/d/1LoCQX5Id_e7pwxya0dkXQ_yV-9AB2hJ7/view?usp=drive_link",
+      "https://drive.google.com/file/d/1aQ7ogH94BRl9l04EMxXIGY8XWWPIrdAu/view?usp=drive_link",
+      "https://drive.google.com/drive/folders/13ZsMDLaR1gPVnhTyroJvCg_d0-n2_CHG?usp=drive_link",
+      "https://drive.google.com/drive/folders/1OxViw9ia_Ix2DpNCbOiVed6bwOuruMe7?usp=drive_link",
+      "https://drive.google.com/file/d/1D6AcYwhoSvl34RsFvI-eKVVz-vxDbo0a/view?usp=drive_link",
+      "https://drive.google.com/drive/folders/1TEjQSltbCGpP3gn2xqSf5LJSaWxTg-wP?usp=drive_link",
+      "https://drive.google.com/drive/folders/18se_RPnp-gU_PtqP6FNGuyisTb2Kt2E6?usp=drive_link",
+      "https://drive.google.com/drive/folders/1-AHcxPQj4MDZjCRnBQ8VGrOLZWsTjuKG?usp=drive_link",
+      "https://drive.google.com/drive/folders/1DL-yTmSt4mkYRtnbtI7QJzxmgrSqLDZH?usp=drive_link",
+      "https://drive.google.com/drive/folders/10ntqNdCOiIFt-4DqS98Ai8rF9mRI1LUI?usp=drive_link",
+      "https://drive.google.com/drive/folders/1d_UIDpkuBxaLHFSggXELVuqjy3nOaval?usp=drive_link",
+      "https://drive.google.com/file/d/1LE9B00qH_I--YoNo4wDGbdtwnWgQ8ToH/view?usp=drive_link"
+    ]
+  }
+}

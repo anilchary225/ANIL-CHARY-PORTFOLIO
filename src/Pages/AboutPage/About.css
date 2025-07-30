@@ -1,0 +1,374 @@
+:root {
+  --about-bg: #280d42;
+  --about-text: #ffffff;
+}
+
+body.dark {
+  --about-bg: #12051e;
+  --about-text: #e0e0e0;
+}
+
+.about {
+    height: 50vh;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+
+.about-page {
+    height: 40vh;
+    background-color: var(--about-bg);
+    gap: 50px;
+    border-radius: 20px;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--about-text);
+}
+
+.about-image {
+    border-radius: 25px;
+    object-fit: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 550px;
+}
+
+.about-image:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* About Content Styles */
+.about-content {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.about-title {
+    color: var(--about-text);
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.about-para {
+    padding: 20px;
+    color: var(--about-text);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.about-image-container {
+    flex-shrink: 0;
+    padding: 20px;
+   
+}
+
+/* Large Desktop Screens (1440px and above) */
+@media screen and (min-width: 1440px) {
+    .about {
+        margin-top: 120px;
+        padding: 0 40px;
+    }
+    
+    .about-page {
+        gap: 70px;
+        padding: 120px 30px;
+        border-radius: 30px;
+    }
+    
+    .about-image {
+        border-radius: 30px;
+        width: 450px;
+        height: 600px;
+    }
+    
+    .about-title {
+        font-size: 3rem;
+    }
+    
+    .about-para {
+        font-size: 1.2rem;
+    }
+}
+
+/* Desktop Screens (1200px - 1439px) */
+@media screen and (max-width: 1439px) {
+    .about {
+        margin-top: 100px;
+    }
+    
+    .about-page {
+        gap: 50px;
+        padding: 100px 20px;
+    }
+}
+
+/* Large Laptop Screens (1024px - 1199px) */
+@media screen and (max-width: 1199px) {
+    .about {
+        margin-top: 80px;
+        padding: 0 30px;
+    }
+    
+    .about-page {
+        gap: 40px;
+        padding: 80px 25px;
+        border-radius: 25px;
+    }
+    
+    .about-image {
+        border-radius: 20px;
+        width: 350px;
+        height: 480px;
+    }
+    
+    .about-title {
+        font-size: 2.2rem;
+    }
+    
+    .about-para {
+        font-size: 1rem;
+        padding: 15px;
+    }
+}
+
+/* Laptop Screens (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+    .about {
+        height: auto;
+        min-height: 40vh;
+        margin-top: 60px;
+        padding: 0 25px;
+    }
+    
+    .about-page {
+        height: auto;
+        min-height: 25vh;
+        gap: 30px;
+        padding: 40px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .about-image {
+        width: 280px;
+        height: 380px;
+        border-radius: 20px;
+    }
+    
+    .about-content {
+        max-width: 100%;
+        text-align: center;
+       
+    }
+    
+    .about-title {
+        font-size: 2rem;
+    }
+    
+    .about-para {
+        padding: 15px;
+        font-size: 1rem;
+    }
+    
+    .about-image-container {
+        padding: 10px;
+    }
+}
+
+/* Tablet Screens (640px - 767px) */
+@media screen and (max-width: 767px) {
+    .about {
+        height: auto;
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+    
+    .about-page {
+        height: auto;
+        min-height: 20vh;
+        gap: 25px;
+        padding: 30px 15px;
+        border-radius: 20px;
+        flex-direction: column;
+    }
+    
+    .about-image {
+        width: 220px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    
+    .about-image:hover {
+        transform: scale(1.02);
+    }
+    
+    .about-content {
+        max-width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .about-title {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    
+    .about-para {
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+}
+
+/* Large Mobile Screens (480px - 639px) */
+@media screen and (max-width: 639px) {
+    .about {
+        height: auto;
+        margin-top: 40px;
+        padding: 0 15px;
+    }
+    
+    .about-page {
+        height: auto;
+        min-height: 15vh;
+        gap: 20px;
+        padding: 25px 15px;
+        border-radius: 15px;
+        flex-direction: column;
+    }
+    
+    .about-image {
+        width: 180px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    
+    .about-content {
+        padding: 5px;
+    }
+    
+    .about-title {
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+    }
+    
+    .about-para {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Small Mobile Screens (320px - 479px) */
+@media screen and (max-width: 479px) {
+    .about {
+        height: auto;
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+    
+    .about-page {
+        height: auto;
+        min-height: 12vh;
+        gap: 15px;
+        padding: 20px 12px;
+        border-radius: 12px;
+        flex-direction: column;
+    }
+    
+    .about-image {
+        width: 150px;
+        height: 200px;
+        border-radius: 12px;
+    }
+    
+    .about-image:hover {
+        transform: scale(1.01);
+    }
+    
+    .about-title {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+    
+    .about-para {
+        padding: 5px;
+        font-size: 0.85rem;
+    }
+}
+
+/* Very Small Mobile Screens (below 320px) */
+@media screen and (max-width: 319px) {
+    .about {
+        margin-top: 25px;
+        padding: 0 5px;
+    }
+    
+    .about-page {
+        height: auto;
+        min-height: 10vh;
+        gap: 12px;
+        padding: 15px 10px;
+        border-radius: 10px;
+    }
+    
+    .about-image {
+        width: 120px;
+        height: 160px;
+        border-radius: 10px;
+    }
+    
+    .about-title {
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    
+    .about-para {
+        padding: 3px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Landscape Mobile Orientation */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .about {
+        height: auto;
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+    
+    .about-page {
+        height: auto;
+        min-height: 40vh;
+        gap: 30px;
+        padding: 20px 15px;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+    
+    .about-image {
+        width: 180px;
+        height: 200px;
+    }
+    
+    .about-content {
+        max-width: 60%;
+        text-align: left;
+    }
+    
+    .about-title {
+        font-size: 1.5rem;
+    }
+    
+    .about-para {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+/* Smooth transitions for all screen changes */
+.about, .about-page, .about-image, .about-title, .about-para {
+    transition: all 0.3s ease-in-out;
+}

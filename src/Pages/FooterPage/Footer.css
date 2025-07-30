@@ -1,0 +1,264 @@
+:root {
+    --footerdetails-text: #ffffff;
+    --footerdetails-text-hover:#bb86fc;
+    
+    --footerdetails-bg-hover:#bb86fc;
+    
+  }
+  
+  body.dark {
+    --footerdetails-text: #bb86fc;
+    --footerdetails-hover: #ffffff;
+    
+    --footerdetails-bg-hover:#bb86fc;
+  }
+
+/* Main footer container */
+.footer-main-div {
+    flex-direction: row;
+    padding: 40px 20px !important;
+}
+
+.footer-div {
+    width: 100%;
+    flex-direction: column-reverse !important;
+    flex-wrap: wrap;
+}
+
+.footer-div1 {
+   display: flex;
+    
+   justify-content: start;
+   align-items: start;
+   color: var(--footerdetails-text);
+}
+
+.footer-div3 .list-item {
+    height: 50px;
+}
+
+.links {
+    color: var(--footerdetails-text)!important;
+    text-decoration: none;
+    display: flex;
+    background-color: var(--footerdetails-bg) ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.links:hover {
+    color: var(--footerdetails-hover)!important;
+    background-color: var(--footerdetails-bg-hover)!important;
+}
+
+.div2, .div3 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.div2 {
+    width: 300px;
+    height: auto;
+    justify-content: start;
+}
+
+.div3{
+    width: 300px;
+    height: auto;
+    justify-content: start;
+}
+
+.footer-head {
+    font-size: clamp(24px, 8vw, 130px);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-main-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.social-div {
+    flex: 1;
+    min-width: 300px;
+    min-height: auto;
+}
+
+.social-icons {
+    flex-wrap: wrap;
+    gap: 10px !important;
+}
+
+.social-icon {
+    font-size: clamp(20px, 4vw, 25px) !important;
+}
+
+.list-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: clamp(16px, 3vw, 20px) !important;
+    width: 100% !important;
+    height: clamp(50px, 8vw, 60px) !important;
+    margin-bottom: 10px;
+}
+
+.details {
+    color: var(--footerdetails-text);
+}
+
+.details p {
+    font-size: clamp(14px, 2.5vw, 16px);
+    margin-bottom: 8px;
+}
+
+.div23 {
+    
+    display: flex;
+    flex-direction: row!important;
+    align-items: start!important;
+    justify-content: center;
+    
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    .footer-main-div {
+        flex-direction: column;
+        padding: 30px 15px !important;
+    }
+    
+    .footer-div {
+        flex-direction: column;
+    }
+    
+    .div1 {
+        flex-direction: column;
+        width: 100% !important;
+        padding: 15px;
+    }
+    
+    .footer-main-content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .social-div {
+        width: 100%;
+    }
+    
+    .social-icons {
+        justify-content: center !important;
+        margin-bottom: 15px;
+    }
+    
+    .details {
+        text-align: center;
+    }
+    
+    .div23 {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .div2, .div3 {
+        width: 100%;
+        max-width: 300px;
+        padding: 15px;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+    .footer-main-div {
+        padding: 20px 10px !important;
+    }
+    
+    .footer-div {
+        flex-direction: column;
+    }
+    
+    .div1 {
+        padding: 10px;
+    }
+    
+    .footer-head {
+        font-size: clamp(20px, 10vw, 40px);
+        text-align: center;
+        word-break: break-word;
+    }
+    
+    .social-icons {
+        gap: 5px !important;
+    }
+    
+    .social-icons a {
+        width: 40px !important;
+        height: 40px;
+    }
+    
+    .details {
+        padding: 15px !important;
+    }
+    
+    .details p {
+        font-size: 12px;
+        word-break: break-word;
+    }
+    
+    .div2, .div3 {
+        padding: 10px;
+    }
+    
+    .list-items {
+        font-size: 14px !important;
+        height: 45px !important;
+    }
+    
+    .div23 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Very small mobile screens */
+@media (max-width: 360px) {
+    .footer-head {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    
+    .social-icons a {
+        width: 35px !important;
+        height: 35px;
+    }
+    
+    .social-icon {
+        font-size: 16px !important;
+    }
+    
+    .details p {
+        font-size: 11px;
+    }
+    
+    .list-items {
+        font-size: 12px !important;
+        height: 40px !important;
+    }
+}

@@ -1,0 +1,96 @@
+:root {
+  --page404-bg: white;
+  --page404-border: gray;
+  --page404-hover-border: #7f49b2;
+  --page404-text: #7f49b2;
+  --page404-link-hover-bg: #622bc1;
+  --page404-link-hover-text: white;
+  --page404-link-home-bg: #622bc1;
+  --page404-link-home-text: #ffffff;
+}
+
+body.dark {
+  --page404-bg: #1a1a1a;
+  --page404-border: #444;
+  --page404-hover-border: #9d6bc7;
+  --page404-text: #bb86fc;
+  --page404-link-hover-bg: #bb86fc;
+  --page404-link-hover-text: #121212;
+  --page404-link-home-hover-bg: #1a1a1a;
+  --page404-link-home-bg: #bb86fc;
+  --page404-link-home-text: #121212;
+  --page404-link-home-hover-text: #bb86fc;
+}
+
+.para {
+  color: var(--page404-text);
+}
+
+.link {
+  font-size: clamp(14px, 2.5vw, 18px);
+  width: clamp(160px, 25vw, 200px);
+  height: clamp(40px, 6vh, 50px);
+  background-color: var(--page404-bg) !important;
+  padding: 0px clamp(20px, 5vw, 40px);
+  color: var(--page404-text);
+  border: 1px solid var(--page404-border) !important;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: var(--page404-link-hover-bg) !important;
+  color: var(--page404-link-hover-text) !important;
+  border: 1px solid var(--page404-border) !important;
+}
+
+.home {
+  background-color: var(--page404-link-home-bg) !important;
+  color: var(--page404-link-home-text) !important;
+}
+
+.home:hover {
+  background-color: var(--page404-link-home-hover-bg) !important;
+  color: var(--page404-link-home-hover-text) !important;
+}
+
+.link-div {
+  min-height: 60px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .link-div {
+      flex-direction: column;
+      gap: 15px !important;
+  }
+  
+  .link {
+      width: clamp(200px, 80vw, 300px);
+      margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-main {
+      padding: 1rem !important;
+  }
+  
+  .para2 {
+      font-size: clamp(14px, 4vw, 20px) !important;
+      padding: 0 10px;
+  }
+  
+  .heading {
+      margin: 1rem 0 !important;
+  }
+}
+
+/* Ensure proper spacing on very small screens */
+@media (max-width: 320px) {
+  .link {
+      width: 90vw;
+      font-size: 16px;
+  }
+}

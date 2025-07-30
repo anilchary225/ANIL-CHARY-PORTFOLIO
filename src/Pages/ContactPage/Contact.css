@@ -1,0 +1,181 @@
+/* Contact Form Responsive Styles */
+:root {
+    --contact-text: #ffffff;
+    --contact-text-hover:#bb86fc;
+    
+    --contact-bg-hover:#bb86fc;
+    
+  }
+  
+  body.dark {
+    --contact-text: #bb86fc;
+    --contact-hover: #ffffff;
+    
+    --contact-bg-hover:#bb86fc;
+  }
+
+.contact-form-responsive {
+    width: 60%!important;
+    margin: 0 auto!important;
+    padding: 1rem;
+    
+  }
+  .contact-div {
+    width: 100%!important;
+    
+  }
+  
+  .contact-submit-btn {
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 50%;
+    /* background-color: var(--contact-text); */
+    
+  }
+  
+  .contact-submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .contact-form-responsive {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .contact-form-responsive {
+      width: 60%;
+    }
+    
+    .contact-submit-btn {
+      padding: 0.7rem 1.8rem;
+      font-size: 0.95rem;
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact-form-responsive {
+      width: 75%;
+      padding: 0.8rem;
+    }
+    
+    .contact-submit-btn {
+      padding: 0.65rem 1.5rem;
+      font-size: 0.9rem;
+    }
+    
+    /* Adjust MUI TextField font sizes for tablets */
+    .contact-form-responsive .MuiTextField-root {
+      font-size: 0.9rem;
+    }
+    
+    .contact-form-responsive .MuiInputLabel-root {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contact-form-responsive {
+      width: 90%;
+      padding: 0.6rem;
+    }
+    
+    .contact-submit-btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.85rem;
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    /* Adjust MUI TextField font sizes for large phones */
+    .contact-form-responsive .MuiTextField-root {
+      font-size: 0.85rem;
+    }
+    
+    .contact-form-responsive .MuiInputLabel-root {
+      font-size: 0.85rem;
+    }
+    
+    .contact-form-responsive .MuiInput-input {
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-form-responsive {
+      width: 95%;
+      padding: 0.5rem;
+    }
+    
+    .contact-submit-btn {
+      padding: 0.55rem 1rem;
+      font-size: 0.8rem;
+      width: 100%;
+    }
+    
+    /* Adjust MUI TextField font sizes for standard phones */
+    .contact-form-responsive .MuiTextField-root {
+      font-size: 0.8rem;
+    }
+    
+    .contact-form-responsive .MuiInputLabel-root {
+      font-size: 0.8rem;
+    }
+    
+    .contact-form-responsive .MuiInput-input {
+      font-size: 0.8rem;
+    }
+    
+    /* Reduce margin for mobile */
+    .contact-form-responsive .text-center.m-2 {
+      margin: 0.5rem !important;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .contact-form-responsive {
+      width: 98%;
+      padding: 0.4rem;
+    }
+    
+    .contact-submit-btn {
+      padding: 0.5rem 0.8rem;
+      font-size: 0.75rem;
+    }
+    
+    /* Adjust MUI TextField font sizes for small phones */
+    .contact-form-responsive .MuiTextField-root {
+      font-size: 0.75rem;
+    }
+    
+    .contact-form-responsive .MuiInputLabel-root {
+      font-size: 0.75rem;
+    }
+    
+    .contact-form-responsive .MuiInput-input {
+      font-size: 0.75rem;
+    }
+  }
+  
+  /* Ensure form fields stack properly on all devices */
+  @media (max-width: 768px) {
+    .contact-form-responsive .MuiStack-root {
+      gap: 1rem;
+    }
+    
+  }
+  
+  @media (max-width: 480px) {
+    .contact-form-responsive .MuiStack-root {
+      gap: 0.8rem;
+    }
+  }
