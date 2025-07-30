@@ -67,7 +67,7 @@ function Home() {
             className="text-center m-5"
             style={{ color: "var(--section-heading)" }}
           >
-            Projects
+            Experience
           </h1>
         </div>
         <div
