@@ -62,7 +62,7 @@ body.dark {
     font-size: 1.3rem;
     margin-bottom: 20px;
     font-weight: 500;
-    
+    font-family: 'CopperplateCustom', serif!important;
     color: var(--entrypage-text);
   }
   

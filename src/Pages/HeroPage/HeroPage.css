@@ -45,7 +45,7 @@ body.dark {
 
 .hero-head {
     font-size: 150px;
-    font-family: copperplate;
+    
     line-height: 1;
     margin: 0;
 }
@@ -268,7 +268,7 @@ body.dark {
     }
     
     .head-para {
-        margin-top: -2px;
+        margin-top: 12px;
     }
     
     .head-para2 {

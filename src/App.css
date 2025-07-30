@@ -11,6 +11,9 @@
   font-weight: normal;
   font-style: normal;
 }
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+}
 
 body {
   font-family: 'CopperplateCustom', serif;
