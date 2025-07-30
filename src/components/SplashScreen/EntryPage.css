@@ -26,7 +26,7 @@ body.dark {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
+    
     
   }
   
@@ -62,7 +62,7 @@ body.dark {
     font-size: 1.3rem;
     margin-bottom: 20px;
     font-weight: 500;
-    font-family: copperplate;
+    
     color: var(--entrypage-text);
   }
   

@@ -96,7 +96,7 @@ function Navbar() {
 
                 {/* Mobile Menu */}
                 <div className={`mobile-menu ${isMobileMenuOpen ? 'active' : ''}`}>
-                    <Link to="/" className={`navbar-link ${location.pathname === "/" ? "active" : ""}`} onClick={handleMobileLinkClick}>
+                    <Link to="/home" className={`navbar-link ${location.pathname === "/" ? "active" : ""}`} onClick={handleMobileLinkClick}>
                         Home
                     </Link>
                     <Link to="/about" className={`navbar-link ${location.pathname === "/about" ? "active" : ""}`} onClick={handleMobileLinkClick}>

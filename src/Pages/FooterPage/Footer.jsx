@@ -57,7 +57,7 @@ function Footer() {
             
 
               <h4 className="list-items">
-                <Link to="/" className="links"
+                <Link to="/home" className="links"
                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
                   Home
                 </Link>
