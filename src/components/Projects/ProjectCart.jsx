@@ -37,9 +37,10 @@ function ProjectCart({project}) {
             
             </a>
                           ):(
-                            <Link
+                            <a
                             key={i}
-                            to="/404pagenotfound"
+                            href="/404pagenotfound"
+                            target='_blank'
                             className="project-link github-link d-flex align-items-center justify-content-center"
                             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                           >
@@ -48,7 +49,7 @@ function ProjectCart({project}) {
                               icon={icon}
                             />{" "}
                             
-                          </Link>
+                          </a>
               )
             )}
           </div>

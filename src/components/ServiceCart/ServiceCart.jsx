@@ -25,7 +25,7 @@ function ServiceCart({service}) {
         <Link
           to="/"
           className="viewmore-link   text-center"
-          style={{ marginTop: "20px",width:'60%' }}
+          style={{ marginTop: "20px",width:'60%',visibility:'hidden' }}
         >
           Explore More
         </Link>

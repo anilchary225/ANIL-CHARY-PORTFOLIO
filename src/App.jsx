@@ -51,7 +51,7 @@ function App() {
   }, []);
 
   // Hide Navbar on Entry Page
-  const hideNavbar = location.pathname === '/';
+  const hideNavbar = location.pathname === '/' || location.pathname === '/404pagenotfound';
   return (
     <div style={{overflow:'hidden'}}>
     {!hideNavbar && <Navbar />}

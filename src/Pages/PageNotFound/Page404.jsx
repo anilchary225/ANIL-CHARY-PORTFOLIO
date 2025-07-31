@@ -22,7 +22,7 @@ function Page404() {
       }}>🚧 This page is currently under development. Please check back soon!</p>
     <div className='link-div d-flex justify-content-center align-items-center flex-wrap' 
          style={{gap: 'clamp(10px, 3vw, 20px)'}} >
-    <Link to='/' className='link home d-flex justify-content-center align-items-center' >Home</Link>
+    <Link to='/home' className='link home d-flex justify-content-center align-items-center' >Home</Link>
     <Link to='/contact' className='link support d-flex justify-content-center align-items-center' >Support</Link>
     </div>
     </div>

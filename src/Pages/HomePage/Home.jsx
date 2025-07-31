@@ -194,7 +194,7 @@ function Home() {
                 skill={tool}
                 image={portfolioData.skills.toolsimg[index]}
               />
-            );
+            )
           })}
         </div>
         <div>
@@ -267,7 +267,7 @@ function Home() {
           
         </div>
       </div>
-      ;
+      
 
     </div>
   );

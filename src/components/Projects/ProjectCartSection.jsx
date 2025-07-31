@@ -60,9 +60,11 @@ function ProjectCartSection({ project }) {
                   {label}
                 </a>
               ) : (
-                <Link
+                <a
                   key={i}
-                  to="/404pagenotfound"
+                  href="/404pagenotfound"
+                  target="_blank"
+                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                   className="navbar-link d-flex align-items-center justify-content-center"
                   style={{
                     width: "150px",
@@ -73,10 +75,10 @@ function ProjectCartSection({ project }) {
                   <FontAwesomeIcon
                     style={{ fontSize: "25px", margin: "10px" }}
                     icon={icon}
-                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                    
                   />{" "}
                   {label}
-                </Link>
+                </a>
               )
             )}
           </div>
