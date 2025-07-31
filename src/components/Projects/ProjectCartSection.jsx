@@ -60,11 +60,11 @@ function ProjectCartSection({ project }) {
                   {label}
                 </a>
               ) : (
-                <a
+                <Link
                   key={i}
-                  href="/404pagenotfound"
-                  target="_blank"
+                  to="/404pagenotfound"
                   
+                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                   className="navbar-link d-flex align-items-center justify-content-center"
                   style={{
                     width: "150px",
@@ -78,7 +78,7 @@ function ProjectCartSection({ project }) {
                     
                   />{" "}
                   {label}
-                </a>
+                </Link>
               )
             )}
           </div>

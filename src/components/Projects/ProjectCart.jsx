@@ -37,18 +37,19 @@ function ProjectCart({project}) {
             
             </a>
                           ):(
-                            <a
+                            <Link
                             key={i}
-                            href="/404pagenotfound"
-                            target='_blank'
+                            to="/404pagenotfound"
+                            
                             className="project-link github-link d-flex align-items-center justify-content-center"
+                            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                           >
                             <FontAwesomeIcon
                               style={{ fontSize: "25px", margin: "10px" }}
                               icon={icon}
                             />{" "}
                             
-                          </a>
+                          </Link>
               )
             )}
           </div>
