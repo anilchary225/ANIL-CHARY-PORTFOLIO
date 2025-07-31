@@ -42,7 +42,6 @@ function ProjectCart({project}) {
                             href="/404pagenotfound"
                             target='_blank'
                             className="project-link github-link d-flex align-items-center justify-content-center"
-                            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                           >
                             <FontAwesomeIcon
                               style={{ fontSize: "25px", margin: "10px" }}

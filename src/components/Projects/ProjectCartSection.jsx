@@ -64,7 +64,7 @@ function ProjectCartSection({ project }) {
                   key={i}
                   href="/404pagenotfound"
                   target="_blank"
-                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                  
                   className="navbar-link d-flex align-items-center justify-content-center"
                   style={{
                     width: "150px",
