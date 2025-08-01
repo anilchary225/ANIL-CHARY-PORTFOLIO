@@ -9,7 +9,7 @@
 
 body.dark {
   --entrypage-bg: #1a1a1a;
-  --entrypage-border: #444;
+  --entrypage-border: #622bc1;
   --entrypage-hover-border: #9d6bc7;
   --entrypage-text: #bb86fc;
   --entrypage-link-hover-bg: #bb86fc;
@@ -58,6 +58,7 @@ body.dark {
 
   }
   
+  
   .entry-head {
     font-size: 1.3rem;
     margin-bottom: 20px;
@@ -68,9 +69,10 @@ body.dark {
   
   
   
-  .enter-button:hover, .skip-button:hover, .sound-button:hover {
+  .entrypage-link:hover{
     background-color: var(--entrypage-link-hover-bg);
     color: var(--entrypage-link-hover-text);
+    border: var(--entrypage-border) !important;
   }
   
   .loader {

@@ -41,9 +41,9 @@ const EntryPage = () => {
                 🚀
               </p>
             </div>
-            <div className="entry-buttons d-flex justify-content-center gap-5">
-              <Link className="entrypage-link skip-button" to="/home">
-                ⚡ Let’s Go
+            <div className="entry-button d-flex justify-content-center align-items-center">
+              <Link className="entrypage-link" to="/home">
+                ⚡ Click here
               </Link>
             </div>
           </div>

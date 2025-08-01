@@ -52,6 +52,7 @@ function App() {
 
   // Hide Navbar on Entry Page
   const hideNavbar = location.pathname === '/' || location.pathname === '/404pagenotfound';
+
   return (
     <div style={{overflow:'hidden'}}>
     {!hideNavbar && <Navbar />}
@@ -70,7 +71,7 @@ function App() {
       <Route path='/contact' element={<ContactSection/>}/>
       <Route path='/404pagenotfound' element={<Page404/>}/>
     </Routes>
-    <Footer/>
+    {!hideNavbar && <Footer />}
     
     </div>
   );
