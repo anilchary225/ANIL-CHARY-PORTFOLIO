@@ -5,14 +5,25 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import "./EntryPage.css";
 import { Link } from "react-router-dom";
 import VadlaAnilCharyLogo from "./Logo";
+import { useNavigate } from "react-router-dom";
 
 const EntryPage = () => {
   const [loading, setLoading] = useState(true);
+  const [enter, setEnter]=useState(false)
 
-  // const navigate = useNavigate();
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 2500); // 2.5s loading spinner
+    return () => clearTimeout(timer);
+  }, []);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setEnter(true);
+      navigate("/home");
+    }, 10000); // 10000 milliseconds = 10 seconds
+  
     return () => clearTimeout(timer);
   }, []);
 
