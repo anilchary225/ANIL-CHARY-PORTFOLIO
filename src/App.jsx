@@ -21,6 +21,7 @@ import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton'
 import InternshipPage from './Pages/InternshipsPage/InternshipPage';
 import { useLocation } from "react-router-dom";
 import EntryPage from './components/SplashScreen/EntryPage';
+import ChatBot from './components/ChatBot/ChatBot';
 
 // import AnimationHomePage from './components/AnimationHomePage/AnimationHomePage';
 
@@ -55,6 +56,7 @@ function App() {
 
   return (
     <div style={{overflow:'hidden'}}>
+    {!hideNavbar && <ChatBot />}
     {!hideNavbar && <Navbar />}
     <Routes>
       {/* <Route path='/' element={<AnimationHomePage />} /> */}

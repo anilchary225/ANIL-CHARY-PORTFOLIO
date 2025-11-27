@@ -113,6 +113,33 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "link":"https://tic-tac-toe-teal-phi.vercel.app",
       "GitHub":"https://github.com/anilchary225/Tic-Tac-Toe"
+    },
+    {
+      "id": "9",
+      "img": "/project-images/PromptsCollections.png",
+      "title": "Prompts Collections",
+      "description": "A React-based prompts collection platform showcasing categorized prompts with a clean UI and responsive layout.",
+      "technologies": ["ReactJS", "CSS", "JavaScript"],
+      "link": "https://prompts-collections.vercel.app/",
+      "GitHub": "https://github.com/anilchary225/prompts-collections"
+    },
+    {
+      "id": "10",
+      "img": "/project-images/HanumanYouthAssociation.png",
+      "title": "Hanuman Youth Association",
+      "description": "A React website designed for Hanuman Youth Association showcasing activities, events, gallery and community information.",
+      "technologies": ["ReactJS", "Tailwind CSS", "JavaScript"],
+      "link": "https://hanuman-youth-association.vercel.app/",
+      "GitHub": "https://github.com/anilchary225/hanuman-youth-association-25"
+    },
+    {
+      "id": "11",
+      "img": "/project-images/ManikantaInteriorWorks.png",
+      "title": "Manikanta Interior Works",
+      "description": "A professional React-based website for Manikanta Interior Works, showcasing services, projects, contact details, and modern UI design.",
+      "technologies": ["ReactJS", "CSS", "JavaScript"],
+      "link": "https://manikanta-interior-works.vercel.app/",
+      "GitHub": "https://github.com/anilchary225/manikanta-interior-works"
     }
   ],
 

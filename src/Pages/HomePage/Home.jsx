@@ -14,6 +14,7 @@ import ContactPage from "../ContactPage/ContactPage";
 import portfolioData from "../../data/portfolioData.json";
 
 
+
 function Home() {
   
   
